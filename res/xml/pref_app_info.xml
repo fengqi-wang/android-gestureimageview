@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory android:title="@string/prefs_header_developer_info">
+        <Preference android:title="@string/prefs_app_info_author" android:summary="@string/prefs_app_info_author_summary" android:selectable="false" />
+	    <Preference android:icon="@drawable/ic_act_panda" android:title="@string/prefs_app_info_www" android:summary="@string/prefs_app_info_www_summary">
+	        <intent
+	            android:action="android.intent.action.VIEW"
+            	android:data="@string/prefs_app_info_www_summary"
+           	/>
+	    </Preference>
+    </PreferenceCategory>
+</PreferenceScreen>

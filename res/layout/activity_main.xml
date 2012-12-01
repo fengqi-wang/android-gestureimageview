@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+	android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <View android:layout_width="match_parent" android:layout_height="25dp" />
+    
+    <Button
+        android:id="@+id/btn_gestureimage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GestureImageView"
+        android:layout_gravity="center"
+         />
+    
+    <View android:layout_width="match_parent" android:layout_height="25dp" />
+    
+    <Button
+        android:id="@+id/btn_imagemapgestureview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ImageMapGestureView"
+        android:layout_gravity="center"
+         />
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    
+    <TableLayout
+        android:layout_gravity="right|top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="0,1,2"
+        >
+        <TableRow>
+			<TextView android:background="@drawable/border" android:id="@+id/matrix_00" />
+			<TextView android:background="@drawable/border" android:id="@+id/matrix_01" />
+			<TextView android:background="@drawable/border" android:id="@+id/matrix_02" />
+		</TableRow>
+        <TableRow>
+			<TextView android:background="@drawable/border" android:id="@+id/matrix_10" />
+			<TextView android:background="@drawable/border" android:id="@+id/matrix_11" />
+			<TextView android:background="@drawable/border" android:id="@+id/matrix_12" />
+		</TableRow>
+		<TableRow>
+			<TextView android:background="@drawable/border" android:id="@+id/matrix_20" />
+			<TextView android:background="@drawable/border" android:id="@+id/matrix_21" />
+			<TextView android:background="@drawable/border" android:id="@+id/matrix_22" />
+		</TableRow>
+    </TableLayout>
+    
+    
+    <android.widget.GestureImageView
+        android:id="@+id/iv_gesture"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:src="@drawable/android_robot_200"
+         />
+
+</LinearLayout>

@@ -1,0 +1,28 @@
+<resources>
+
+    <string name="app_name">CodePanda GestureImage</string>
+    <string name="menu_info">App Info</string>
+    <string name="title_activity_main">CodePanda GestureImage</string>
+    <string name="title_app_info_main">App Info</string>
+    
+    <string name="button_1">GestureImageView</string>
+    <string name="button_2">ImageMapGestureView</string>
+
+    <string name="prefs_header_developer_info">Developer Info</string>
+    <string name="prefs_app_info_hsr">Official HSR App</string>
+    <string name="prefs_app_info_hsr_summary"></string>
+    <string name="prefs_app_info_author">Author</string>
+    <string name="prefs_app_info_author_summary">Thomas Charriere</string>
+    <string name="prefs_app_info_www">Website</string>
+    <string name="prefs_app_info_www_summary">http://www.codepanda.ch/</string>
+    
+    <string name="matrix_value_0">ScaleX %s</string>
+    <string name="matrix_value_1">SkewX %s</string>
+    <string name="matrix_value_2">TransX %s</string>
+    <string name="matrix_value_3">SkewY %s</string>
+    <string name="matrix_value_4">ScaleY %s</string>
+    <string name="matrix_value_5">TransY %s</string>
+    <string name="matrix_value_6">Persp0 %s</string>
+    <string name="matrix_value_7">Persp1 %s</string>
+    <string name="matrix_value_8">Persp2 %s</string>
+</resources>
